@@ -37,6 +37,10 @@ module.exports = function (_config) {
       slug: 'bluesky',
       scheme: 'bluesky',
       owner: 'blueskysocial',
+      platforms: ['ios', 'android', 'web'],
+      web: {
+        bundler: 'metro',
+        favicon: './assets/favicon.png',
       runtimeVersion: {
         policy: 'appVersion',
       },

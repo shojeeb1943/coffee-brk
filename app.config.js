@@ -203,9 +203,6 @@ module.exports = function (_config) {
           },
         ],
       },
-      web: {
-        favicon: './assets/favicon.png',
-      },
       updates: {
         url: 'https://updates.bsky.app/manifest',
         enabled: UPDATES_ENABLED,
